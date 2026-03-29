@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 合规下载助手",
+  "description": "在 YouTube 页面提供合规下载与离线保存指引（YouTube Premium / YouTube Studio）。",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "YouTube 合规下载助手",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://studio.youtube.com/*",
+    "https://support.google.com/*"
+  ]
+}

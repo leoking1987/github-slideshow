@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube 合规下载助手</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>YouTube 合规下载助手</h1>
+      <p id="page-context">正在检测当前标签页…</p>
+
+      <section class="card">
+        <h2>观看者（离线保存）</h2>
+        <p>如果你是观看者，可通过 YouTube Premium 在官方 App 中离线保存视频。</p>
+        <button id="open-premium-help" type="button">打开官方帮助</button>
+      </section>
+
+      <section class="card">
+        <h2>创作者（下载自己的视频）</h2>
+        <p>如果视频是你上传的，可在 YouTube Studio 中下载你自己的内容。</p>
+        <button id="open-studio" type="button">打开 YouTube Studio</button>
+      </section>
+
+      <section class="card muted">
+        <h2>提示</h2>
+        <p>
+          本扩展不提供绕过平台规则的下载功能，仅提供官方允许的离线/下载路径。
+        </p>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
